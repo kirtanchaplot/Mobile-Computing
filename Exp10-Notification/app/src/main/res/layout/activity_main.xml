@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="679dp"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edit_text_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Header"
+            android:inputType="text"
+            android:textColor="@color/colorAccent" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edit_text_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Details"
+            android:inputType="text"
+            android:textColor="@color/colorAccent" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edit_text_time_interval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Loop "
+            android:inputType="number"
+            android:textColor="@color/colorAccent" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_fire"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:layout_marginTop="24dp"
+            android:text="Print"
+            android:textColor="@color/colorPrimary" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_cool_down_last"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:layout_marginTop="56dp"
+            android:text="Stop"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_cool_down_all"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:layout_marginTop="24dp"
+            android:text="Stop All"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary" />
+
+    </LinearLayout>
+
+</FrameLayout>
